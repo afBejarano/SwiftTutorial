@@ -1,6 +1,8 @@
 import UIKit
 
-for i in 0...100 {
+let range = 0...100
+
+for i in range {
     if i%2 == 0{
         print("\(i)par!!!")
     }

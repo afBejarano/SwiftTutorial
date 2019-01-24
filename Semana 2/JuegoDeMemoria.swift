@@ -9,7 +9,7 @@ for i in range {
     if i%2 == 1{
         print("\(i)impar!!!")
     }
-    if 30...40 {
+    if i <= 30 || i >= 40 {
         print("\(i)Viva Swift!!!")
     }
     if i%5 == 0 {
